@@ -1,0 +1,61 @@
+#GUI:
+#  Settings:
+#    Items:
+#      Filler: 'Paper'
+#      Colors:
+#        Type: 'Paper'
+#    FKeyBind:
+#      guiTitle: ''
+
+keybindings:
+  f:
+    # Permission needed to use this keybinding. Leave empty for no permission.
+    permission: elitekeybinds.f
+    # Whether this keybinding should be enabled (true|false)
+    enabled: true
+    # Whether the corresponding event should be canceled.
+    cancel-event: true
+    # Cooldown in seconds, until this keybinding can be used again.
+    cooldown: 10
+    # Commands (without / ) to be executed.
+    commands:
+      - say [f] first command
+
+  q:
+    # Permission needed to use this keybinding. Leave empty for no permission.
+    permission: elitekeybinds.q
+    # Whether this keybinding should be enabled (true|false)
+    enabled: false
+    # Whether the corresponding event should be canceled.
+    cancel-event: true
+    # Cooldown in seconds, until this keybinding can be used again.
+    cooldown: 10
+    # Commands (without / ) to be executed.
+    commands:
+      - say [q] first command
+
+  shift-f:
+    # Permission needed to use this keybinding. Leave empty for no permission.
+    permission: elitekeybinds.shift.f
+    # Whether this keybinding should be enabled (true|false)
+    enabled: false
+    # Whether the corresponding event should be canceled.
+    cancel-event: true
+    # Cooldown in seconds, until this keybinding can be used again.
+    cooldown: 10
+    # Commands (without / ) to be executed.
+    commands:
+      - say [shift-f] first command
+
+  shift-q:
+    # Permission needed to use this keybinding. Leave empty for no permission.
+    permission: elitekeybinds.shift.q
+    # Whether this keybinding should be enabled (true|false)
+    enabled: false
+    # Whether the corresponding event should be canceled.
+    cancel-event: true
+    # Cooldown in seconds, until this keybinding can be used again.
+    cooldown: 10
+    # Commands (without / ) to be executed.
+    commands:
+      - say [shift-q] command

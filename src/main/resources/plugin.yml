@@ -1,0 +1,5 @@
+name: EliteKeybinds
+version: '${project.version}'
+main: me.emre.elitekeybind.EliteKeybinds
+api-version: 1.19
+authors: [ Emre ]
